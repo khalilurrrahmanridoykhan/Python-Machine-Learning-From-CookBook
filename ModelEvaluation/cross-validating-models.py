@@ -21,4 +21,4 @@ kf = KFold(n_splits=10, shuffle=True, random_state=1)
 # Create k-fold cross-validation
 cv_results = cross_val_score(pipline, features, target, cv=kf, scoring="accuracy", n_jobs=-1)
 # Calculate Mean
-print(features.shape)
+print(cv_results.mean())
