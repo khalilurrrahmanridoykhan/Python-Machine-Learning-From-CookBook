@@ -1,0 +1,9 @@
+Stratified:
+Stratified makes prodictions that are proportional to the training set's target vector's class proportions.
+Example:
+If 20% of the observations in the training data are women, then DummyClassifier will predict women 20% of the time.
+
+Uniform:
+Uniform will grnerate predictions uniformly at random between the different classes.
+Example:
+If 20% of the observations in the traning data are women and 80% are men, uniform will produce predictions that are 50% women and 50% men.
