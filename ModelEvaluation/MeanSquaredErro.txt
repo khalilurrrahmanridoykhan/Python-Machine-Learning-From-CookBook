@@ -1,0 +1,5 @@
+Mean Square Erro (MSE) and Mean Absolute Error (MAE) are two commonly used metrisc for evaluating the performance of the regression models. They Meansure the difference betuween the predicted values and the actual values (targets) in different ways.
+
+Mean Squared Error (MSE):
+MSE measures the average of the square of the errors.
+The average squared = difference betuween the predicted and actual values.
