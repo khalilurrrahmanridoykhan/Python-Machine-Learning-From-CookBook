@@ -1,5 +1,8 @@
 git init
-git add . 
+git add .
 git status
 git commit -m 'your message'
 git push
+
+.venv\Scripts\activate
+ModelEvaluation/evaluating_binary_classifier_thresholds.py
