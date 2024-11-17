@@ -4,5 +4,19 @@ git status
 git commit -m 'your message'
 git push
 
+source .venv/bin/activate
 .venv\Scripts\activate
 ModelEvaluation/evaluating_binary_classifier_thresholds.py
+
+
+
+pip install keras
+pip install opencv-python
+pip install matplotlib
+pip install numpy
+pip install pandas
+pip install plotly
+pip install scikit-learn
+pip install scipy
+pip install seaborn
+
